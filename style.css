@@ -1,13 +1,32 @@
+.hej {
+  background-color: red;
+}
 
+.hej {
+  background-color: green;
+}
 
+div {
+}
 
-ul li:nth-child(odd) {
-  background-color:yellow ;
-} 
+ul.två li:nth-child(odd) {
+  background-color: yellow;
+}
+
+body :not(p) {
+  color: rgb(255, 0, 0);
+}
 
 ul li:nth-child(odd):not(:first-child):hover {
-  background-color:blue ;
-} 
+  background-color: blue;
+}
+ul.ett li::before {
+  content: "hej";
+}
+
+ul.ett li:nth-child(even)::first-letter {
+  font-size: 3em;
+}
 
 p::first-line {
   color: blue;

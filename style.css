@@ -7,6 +7,7 @@
 }
 
 div {
+  color: red;
 }
 
 ul.två li:nth-child(odd) {
@@ -15,6 +16,9 @@ ul.två li:nth-child(odd) {
 
 body :not(p) {
   color: rgb(255, 0, 0);
+}
+ul li:nth-child(2) {
+  background-color: red;
 }
 
 ul li:nth-child(odd):not(:first-child):hover {
